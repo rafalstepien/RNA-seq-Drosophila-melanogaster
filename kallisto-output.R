@@ -20,7 +20,7 @@ length(abundance_29$tpm[abundance_29$tpm > 0])
 length(abundance_32$tpm[abundance_32$tpm > 0])
 length(abundance_33$tpm[abundance_33$tpm > 0])
 
-# pierwsze 10 id transkryptów, gdy posortowane według tpm malejąco
+# first 10 transcripts ID's when sorted by tmp decreasing
 abundance_24$target_id[order(abundance_24$tpm, decreasing = T)][1:10]
 abundance_25$target_id[order(abundance_25$tpm, decreasing = T)][1:10]
 abundance_28$target_id[order(abundance_28$tpm, decreasing = T)][1:10]
